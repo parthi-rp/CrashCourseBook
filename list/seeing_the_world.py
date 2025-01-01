@@ -1,0 +1,12 @@
+fav_places = ['paris', 'new york', 'swiss', 'everest', 'london']
+print(f"My favourite places: \n{fav_places}")
+print(f"My fav places in alphabetical order: \n{sorted(fav_places)}")
+print(f"My fav places in original order: \n{fav_places}")
+print(f"My fav places in reverse alphabetical order: \n{sorted(fav_places, reverse=True)}")
+print(f"My fav places in original order: \n{fav_places}")
+fav_places.reverse()
+print(f"My fav places in reverse order: \n{fav_places}")
+fav_places.sort()
+print(f"My fav places in alphabetical order: \n{fav_places}")
+fav_places.sort(reverse=True)
+print(f"My fav places in reverse alphabetical order: \n{fav_places}")
